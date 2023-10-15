@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">TV Remote Master</string>
+
+    <string name="first_check">I understand that sharing of inappropriate content will not be tolerated.</string>
+    <string name="second_check">I confirm that Im 18 years old or above.</string>
+    <string name="clickforprivacy">"By Clicking 'Get Started'. You are agree to above Terms of Use and Privacy Policy. "</string>
+
+    <string name="subscribe_KEY1" >com.price.removeads</string>
+
+    <string name="qintitle"><![CDATA[Play & Win Coins]]></string>
+    <string name="qintdes"><![CDATA[Win 5,00,000 Coins & More]]></string>
+    <string name="qintitle1">Play Now and Earn Up to 50,000</string>
+    <string name="qintdes1"><![CDATA[Play and Earn 5,00,000 Coins & Mores]]></string>
+    <string name="qnativetitle"><![CDATA[Play & Win Coins]]></string>
+
+    <string name="app_intro">Support ALL video formats, including MKV, MP4, M4V, AVI, MOV, 3GP, FLV, WMV, RMVB, TS, etc.</string>
+    <string name="app_name1">Rasopo -Chat Guide for Roposo</string>
+    <string name="icon_content_description">Dialog Icon</string>
+    <string name="messenger_send_button_text">Send</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="nav_app_bar_navigate_up_description">Navigate up</string>
+    <string name="nav_app_bar_open_drawer_description">Open navigation drawer</string>
+
+
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="lbl_visio">Visio</string>
+    <string name="lbl_photos">Photos</string>
+    <string name="lbl_remote_name">Remote Name</string>
+    <string name="lbl_haro">Haro</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_dining_hall">Dining Hall</string>
+    <string name="lbl_all_brands">All Brands</string>
+    <string name="lbl_start_mirroring">Start Mirroring</string>
+    <string name="msg_please_tap_to">Please Tap to \u201cAdd Remote\u201d buttons to
+add new remote.</string>
+    <string name="msg_screen_mirrorin">Screen Mirroring</string>
+    <string name="lbl_smart_tv_remote">Smart TV Remote</string>
+    <string name="lbl_roku_remote">Roku Remote</string>
+    <string name="lbl2">#</string>
+    <string name="lbl_subtitle">Subtitle</string>
+    <string name="lbl_rename">Rename</string>
+    <string name="lbl_wi_fi_tv_remote">Wi-Fi TV Remote</string>
+    <string name="lbl_bangue">Bangue</string>
+    <string name="lbl_remote_rename">Remote Rename</string>
+    <string name="lbl_display">Display</string>
+    <string name="lbl_kitchen">Kitchen</string>
+    <string name="lbl_denver">Denver</string>
+    <string name="lbl_did_it_works">Did it works?</string>
+    <string name="msg_enjoying_all_re">Enjoying All Remote Control For TV? We will be very Grateful if you give us a Five Star Rating on
+Google Play.</string>
+    <string name="lbl_default">Default</string>
+    <string name="lbl_bed_room2">Bed Room</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="msg_enter_remote_na">Enter remote name.</string>
+    <string name="lbl_tcl">TCL</string>
+    <string name="lbl_ad">AD</string>
+    <string name="lbl_samsung_remote">Samsung Remote</string>
+    <string name="lbl_vol">Vol</string>
+    <string name="lbl_office">Office</string>
+    <string name="lbl_cancel">Cancel</string>
+    <string name="lbl">*</string>
+    <string name="msg_universal_remot">Universal Remote
+Control</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_panasonic">Panasonic</string>
+    <string name="lbl_lg_tv_remote">LG TV Remote</string>
+    <string name="lbl_ir_tv_remote">IR TV Remote</string>
+    <string name="lbl_more_apps">More Apps</string>
+    <string name="lbl_remint_me_later">Remint me later</string>
+    <string name="lbl_start">Start</string>
+    <string name="lbl_screen_mirror">Screen Mirror</string>
+    <string name="lbl_share_app">Share App</string>
+    <string name="lbl_search">Search</string>
+    <string name="lbl_alba">Alba</string>
+    <string name="lbl_0">0</string>
+    <string name="lbl_1">1</string>
+    <string name="lbl_2">2</string>
+    <string name="lbl_3">3</string>
+    <string name="lbl_4">4</string>
+    <string name="lbl_5">5</string>
+    <string name="lbl_6">6</string>
+    <string name="lbl_7">7</string>
+    <string name="lbl_8">8</string>
+    <string name="lbl_9">9</string>
+    <string name="lbl_audio">Audio</string>
+    <string name="lbl_exit">Exit</string>
+    <string name="msg_are_you_sure_yo">Are you sure you want to exit ?</string>
+    <string name="lbl_tv_remote">TV Remote</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_test_buttons">Test Buttons</string>
+    <string name="lbl_mute">Mute</string>
+    <string name="lbl_samsung">Samsung</string>
+    <string name="lbl_roku_tv_remote">Roku TV Remote</string>
+    <string name="lbl_living_room">Living Room</string>
+    <string name="lbl_bed_room_22">Bed Room 2</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_device_location">Device Location</string>
+    <string name="lbl_bedroom">Bedroom</string>
+    <string name="msg_sorem_ipsum_dol">Sorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit.</string>
+    <string name="lbl_1_10">1/10</string>
+    <string name="lbl_asus">Asus</string>
+    <string name="lbl_ch">Ch</string>
+    <string name="lbl_x2_back">X2-Back</string>
+    <string name="lbl_videos">Videos</string>
+    <string name="lbl_clear">Clear</string>
+    <string name="lbl_rate_us">Rate Us</string>
+    <string name="lbl_popular_brands">Popular Brands</string>
+    <string name="lbl_hall">Hall</string>
+    <string name="lbl_amazon">Amazon</string>
+    <string name="lbl_shiba">Shiba</string>
+    <string name="msg_continental_edi">Continental Edison</string>
+
+</resources>

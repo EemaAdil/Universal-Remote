@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    >
+
+
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:id="@+id/linearSplash"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        style="@style/groupStylegray_900">
+
+        <View
+            android:id="@+id/viewRectangle12445"
+            android:gravity="center_horizontal"
+            android:layout_width="@dimen/_125pxh"
+            android:layout_height="@dimen/_125pxh"
+            android:layout_marginStart="@dimen/_95pxh"
+            android:layout_marginTop="@dimen/_156pxv"
+            android:layout_marginEnd="@dimen/_95pxh"
+            android:background="@drawable/rectangle_bg_bluegray_100_radius_16" />
+
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtHowtoUse"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_95pxh"
+            android:layout_marginStart="@dimen/_95pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_width="match_parent"
+            android:text="Universal Remote Control"
+            style="@style/txtRobotoromanmedium30" tools:text="@string/msg_universal_remot"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnStart"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_95pxh"
+            android:layout_marginStart="@dimen/_95pxh"
+            android:layout_marginTop="@dimen/_226pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_13pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_13pxv" android:singleLine="true"
+            android:text="@string/lbl_start" android:textAllCaps="false"
+            style="@style/btnSolidRounded" tools:text="@string/lbl_start"/>
+    </LinearLayout>
+
+</RelativeLayout>
+

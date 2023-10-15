@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_above="@+id/btm1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/groupStylegray_900">
+
+        <RelativeLayout
+            android:id="@+id/bb"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:backgroundTint="@color/black"
+            android:background="@drawable/header_bg">
+
+            <ImageView
+                android:id="@+id/backpress"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/backpress"
+                android:tint="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/avenirltstd_medium"
+                android:gravity="center"
+                android:text="TV Remote"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/ban"
+            android:layout_below="@+id/bb">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/avenirltstd_medium"
+                    android:gravity="center"
+                    android:text="Remote Name"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/btnedt"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/remote_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:fontFamily="@font/avenirltstd_medium"
+                        android:maxLines="1"
+                        android:paddingLeft="2dp"
+                        android:singleLine="true"
+                        android:text="Default"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/id_cross"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_cross"
+                        android:visibility="visible" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/avenirltstd_medium"
+                    android:gravity="center"
+                    android:text="Device Location"
+                    android:textColor="@color/white"
+                    android:textSize="17dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/default_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:background="@color/black"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="57dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_horizontal"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/default1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenirltstd_medium"
+                            android:gravity="center"
+                            android:text="Default"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_16pxh"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/bedroom_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="57dp"
+                            android:layout_weight="1"
+                            android:layout_gravity="center_horizontal"
+                            android:adjustViewBounds="true"
+                            android:src="@drawable/bedroom1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenirltstd_medium"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_16pxh"
+                            android:text="Bedroom"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/living_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="166dp"
+                            android:layout_height="90dp"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/livingroom" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenirltstd_medium"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_16pxh"
+                            android:text="Living Room"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/bathroom_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="57dp"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/kitchen" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_16pxh"
+                            android:fontFamily="@font/avenirltstd_medium"
+                            android:gravity="center"
+                            android:text="Kitchen"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/theater_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/black"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="57dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:adjustViewBounds="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/dininghall1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenirltstd_medium"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_16pxh"
+                            android:gravity="center"
+                            android:text="Dining Hall"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/office_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:background="@color/black"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="76dp"
+                            android:layout_height="57dp"
+                            android:layout_weight="1"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:adjustViewBounds="true"
+                            android:layout_gravity="center_horizontal"
+                            android:src="@drawable/office" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/avenirltstd_medium"
+                            android:gravity="center"
+                            android:layout_marginTop="@dimen/_16pxh"
+                            android:layout_marginBottom="@dimen/_16pxh"
+                            android:text="Office"
+                            android:textColor="@color/white"
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/remote_save"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="80dp"
+                    android:backgroundTint="@color/green_500"
+                    android:background="@drawable/dialoge_btn">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="@font/avenirltstd_medium"
+                        android:text="SAVE"
+                        android:textColor="@color/white"
+                        android:textSize="17dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <FrameLayout
+            android:id="@+id/ban"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btm1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true">
+
+        <include
+            android:id="@+id/reguler_banner_ad"
+            layout="@layout/ads_layout_banner"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

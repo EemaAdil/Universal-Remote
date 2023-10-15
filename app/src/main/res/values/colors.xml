@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorAccent">#fe0000</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+
+    <color name="primarymain">#000000</color>
+    <color name="colorlight">#eaf4ff</color>
+
+    <color name="colorlightdark">#eaf4ff</color>
+
+    <color name="adstext">#000000</color>
+
+
+    <color name="black">#000000</color>
+    <color name="blackads">#1a1a1a</color>
+    <color name="black1">#4c4c4c</color>
+
+    <color name="colorbtn1">#ff7ce8</color>
+    <color name="colorbtn2">#7f90ff</color>
+    <color name="colorbtn3">#ff7b7c</color>
+    <color name="colorbtn4">#c67cff</color>
+    <color name="colorbtn5">#7abe20</color>
+    <color name="colorbtn6">#ff447f</color>
+    <color name="colorbtn7">#ff791b</color>
+    <color name="colorbtn8">#ffb979</color>
+    <color name="colorGrey">#808080</color>
+
+    <color name="color0">#000000</color>
+    <color name="color1">#fe0000</color>
+    <color name="color2">#0025fd</color>
+    <color name="color3">#0073ff</color>
+    <color name="color4">#fdc100</color>
+    <color name="color5">#00ff43</color>
+    <color name="color6">#009ebb</color>
+    <color name="color7">#025a14</color>
+    <color name="color8">#8f8106</color>
+    <color name="color9">#4cc812</color>
+
+    <color name="colorhash">#ff5a00</color>
+    <color name="colorstar">#a40101</color>
+
+
+
+    <color name="md_deep_orange_300">#FF8A65</color>
+    <color name="filter_text">#120a27</color>
+
+
+    <color name="com_smart_login_code">#3c6499</color>
+    <color name="customtransparent">#e2393737</color>
+    <color name="gnt_white">#ffffff</color>
+    <color name="grey">#b8b7b7</color>
+    <color name="primaryDark">#c7000000</color>
+    <color name="text_color1">#0172fe</color>
+    <color name="text_color2">#00e239</color>
+    <color name="text_color3">#009dbb</color>
+    <color name="text_color4">#ff01a1</color>
+    <color name="text_color5">#233670</color>
+    <color name="text_color6">#05306c</color>
+    <color name="textblack">#393737</color>
+    <color name="theme_text">#868faa</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="deep_orange_A100">#ff9b8a</color>
+    <color name="red_601">#e53939</color>
+    <color name="red_600">#ef2828</color>
+    <color name="lime_A200">#f3f348</color>
+    <color name="indigo_A200">#5966ff</color>
+    <color name="blue_A200">#5888ff</color>
+    <color name="green_A200">#55ff99</color>
+    <color name="green_500">#31b46c</color>
+    <color name="green_400">#6ac761</color>
+    <color name="pink_A100">#ff5ec4</color>
+    <color name="pink_A200">#ff5a7d</color>
+    <color name="green_A700">#25be63</color>
+    <color name="pink_A201">#ff428d</color>
+    <color name="pink_A202">#ff4593</color>
+    <color name="black_900">#000000</color>
+    <color name="pink_A203">#f62c84</color>
+    <color name="purple_A700">#b200d0</color>
+    <color name="deep_orange_300">#ff9755</color>
+    <color name="pink_401">#e43683</color>
+    <color name="deep_purple_A200">#8a3eff</color>
+    <color name="pink_402">#e1309c</color>
+    <color name="purple_A200">#ff46da</color>
+    <color name="pink_400">#e73885</color>
+    <color name="purple_400">#ab38d9</color>
+    <color name="gray_600">#717171</color>
+    <color name="gray_402">#b8b8b8</color>
+    <color name="gray_601">#808080</color>
+    <color name="gray_700">#646464</color>
+    <color name="gray_403">#c3c3c3</color>
+    <color name="lime_400">#cce64f</color>
+    <color name="gray_400">#b4b4b4</color>
+    <color name="orange_A200">#ffae46</color>
+    <color name="gray_500">#a3a3a3</color>
+    <color name="gray_901">#121212</color>
+    <color name="gray_902">#272727</color>
+    <color name="red_A200">#ff5d5d</color>
+    <color name="blue_500">#288fef</color>
+    <color name="gray_800">#4a4a4a</color>
+    <color name="gray_900">#202020</color>
+    <color name="gray_801">#3b3b3b</color>
+    <color name="bluegray_100">#d9d9d9</color>
+    <color name="amber_300">#ffda50</color>
+    <color name="bluegray_400">#8b8b8b</color>
+    <color name="black_900_95">#95000000</color>
+    <color name="blue_300">#6fbaff</color>
+    <color name="blue_400">#58a0ff</color>
+    <color name="white_A700">#ffffff</color>
+    <color name="cyan_500">#00d0c9</color>
+
+</resources>
